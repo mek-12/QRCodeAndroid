@@ -12,6 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"></com.wonderkiln.camerakit.CameraView>
 
+    <com.example.androdiqrcodefirebase.Helper.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
     <Button
         android:id="@+id/btn_detect"
         android:text="DETECT"
